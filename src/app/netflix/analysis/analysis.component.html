@@ -1,0 +1,14 @@
+
+<div class="analysis">
+<mat-grid-list class="gridList" cols="1"  [gutterSize]="'10px'">
+     <mat-grid-tile class="gridTile">
+           <div #myIdentifier class="chartCss">
+            <!-- <app-chart1 *ngIf="isEmptyObject(chartData.netflix_titles)" [chartData]="chartData.netflix_titles" [chartMeta]="chartMeta" ></app-chart1>  -->
+            <app-world-map *ngIf="isEmptyObject(chartData.netflix_titles)" [chartData]="chartData.netflix_titles" [chartMeta]="chartMeta" ></app-world-map> 
+          </div>
+        </mat-grid-tile>
+   
+
+</mat-grid-list>
+</div>
+

@@ -1,0 +1,43 @@
+
+<div class="search">
+   
+    
+    <div class="header-Title">
+      <p >Unlimited movies, TV shows, and more.</p>
+      <h2 class="pt10">Watch anywhere. Cancel anytime.</h2>
+      <h3 class="pt10">Ready to watch? Enter your email to create or restart your membership.</h3>
+    </div>
+    <div class="search-bar">
+      <form class="example-form">
+        <mat-form-field class="example-full-width"
+                      floatLabel="never" color="primary">
+        <input class="toolbar-search" type="text" matInput placeholder="search by Title, Directors & Cast ..." (keyup)="searchMovie($event)">
+        <mat-icon matSuffix style="font-size: 1.2em">search</mat-icon>
+      </mat-form-field>
+      
+      </form>
+    </div>
+    <h1 class="fontColor"> {{CustomHeader}}</h1>
+    <h4 class="customSearch" *ngIf="CustomSearch!=''"> {{CustomSearch}}</h4>
+    <mat-grid-list class="gridList" cols="4" rowHeight="150px" [gutterSize]="'10px'">
+        <mat-grid-tile class="moviesList"  *ngFor="let movie of chartData.netflix_titles | slice:0:10; let i=index">
+          <mat-card class="example-card">
+            <mat-card-header class="card-header">
+             
+              <mat-card-title class="title" >{{movie.title}}</mat-card-title>
+              <mat-card-subtitle class="subtitle">{{movie.description | slice:0:50}} ...</mat-card-subtitle>
+            </mat-card-header>
+            
+            <mat-card-actions>
+              <button mat-button> LIKE</button>
+              <button mat-button>SHARE</button>
+            </mat-card-actions>
+          </mat-card>
+         
+        </mat-grid-tile>
+       
+    
+    </mat-grid-list>
+    </div>
+  
+    

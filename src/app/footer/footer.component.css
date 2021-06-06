@@ -1,0 +1,37 @@
+.footer{
+    height: 257px;
+    box-shadow: none;
+    border-bottom: 1px solid #131313;
+}
+.footer-title{
+    color:#FFFFFF;
+}
+.grid-list-class{
+    width:100%
+}
+.footer-title-2{
+    color:slategray;
+    height:30px !important;
+    font-size: 14px;
+}
+.footer-title-3{
+    color:white;
+    height:30px !important;
+    font-size: 14px;
+    font-family: cursive;
+    font-weight: 300;
+
+}
+.footer-title-4{
+    color:slategray;
+    font-size: 10px;
+    font-weight: 300;
+
+}
+.toolbarcla{
+    width:100%;
+    text-align: end;
+    border-top: 1px solid #131313;
+    margin-top: 5px;
+
+}

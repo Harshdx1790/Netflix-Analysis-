@@ -1,0 +1,74 @@
+div{
+    /* width: 100%; */
+    height: 100%;
+  }
+  .moviesList{
+    height:150px
+  }
+  .example-card {
+    width: 100%;
+    height:78%;
+    background-color: #303030;
+    opacity: 0.90;
+    color: #FFFFFF;
+  }
+  .subtitle{
+    color:blanchedalmond;
+    font-size: 10px;
+  }
+  .card-header{
+    height:71%;
+   }
+
+   .title{
+    font-size:14px
+   }
+   .gridList{
+    padding-top: 81px;
+    height:100%
+   }
+   
+   .header-Title{
+    position: relative;
+    width: 100%;
+    padding: 75px 0;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+    color: white;
+    font-size: 3.125rem
+   }
+   .header-font{
+    font-size: 3.125rem
+   }
+   .pt10{
+     padding-top:10px
+   }
+   .example-form-field {
+    width: 100%;
+    color:#FFFFFF;
+    border:1px solid #FFFFFF
+  }
+  .fontColor{
+    color:aqua
+  }
+  .analysis {
+    position: relative;
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background:#131313;
+    min-height:400px;
+    padding-left:20px;
+    padding-right:20px;
+ }
+ .chartCss{
+   width:100%
+ }
+ mat-slider {
+  width: 300px;
+}
+ 
+
+
+  

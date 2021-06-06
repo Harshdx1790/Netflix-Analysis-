@@ -1,0 +1,101 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body {
+   margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background:#000000;
+  
+ }
+ 
+
+.mat-toolbar {
+    background: #000000;
+    color: #fff;
+    height:80px;
+    box-shadow: 0 6px 7px -2px rgb(240 240 240 / 33%);
+ }
+ 
+ mat-form-field{
+    background-color: white;
+    border-radius: 30px;
+    padding-left:20px;
+    padding-right: 20px;
+    width:95%;
+    opacity:0.8;
+    margin-top: 20px;
+ }
+ 
+
+ mat-slider.mat-slider-horizontal .mat-slider-wrapper {
+   top: 18px;
+ }
+ 
+ 
+ .mat-accent .mat-slider-thumb {
+   border: solid 2px #ff4081;
+
+ }
+ .mat-slider-min-value:not(.mat-slider-thumb-label-showing) .mat-slider-thumb {
+   background-color: #ff4081;
+ }
+
+ .d3-tip {
+   line-height: 1.5;
+   font-weight: 400;
+   font-family:"avenir next", Arial, sans-serif;
+   padding: 10px;
+   background: darkslategray;
+   color: greenyellow;
+   border-radius: 10px;
+   pointer-events: none;
+   }
+
+   /* Creates a small triangle extender for the tooltip */
+   
+.tooltip-tile{
+   font-size: 18px;
+}
+.tooltip-subtitle{
+   font-size: 12px;
+   font-weight: 600;
+}
+.tooltip-subtitle-value{
+   font-size: 12px;
+   font-weight: 300;
+   color:#ffffff
+}
+.tooltip-subtitle-movies{
+   font-size: 11px;
+    font-weight: 300;
+    color: #ffffff;
+    font-family: serif;
+    /* font-style: italic; */
+}
+.tooltip-ytd{
+  font-size: 10px;
+  color: powderblue;
+}
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  float: right;
+  border-bottom: 12px solid greenyellow;
+  margin-top: 4px !important;
+}
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  margin-top: 7px !important;
+  float: right;
+  border-top: 12px solid orangered;
+}
+.tooltip-arrow-div{
+  width: 200px
+}
+
+  

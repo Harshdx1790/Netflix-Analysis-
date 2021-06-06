@@ -1,0 +1,34 @@
+
+<div class="mat-slider-div"><h1 class="fontColor">The Evolution of Netflix   </h1>
+<h5>Content based analysis to understand what content is available in various countries over a period of time </h5>
+      <h3 class="timeline">NetFlix Timeline</h3>
+      <h3 class="comparisonClass">{{ComparisonAnalysis}}</h3>
+      <h5 class="">Drag the Time line to see the content based on country </h5>
+     
+          
+      
+   <span class="Year"> {{start_year}} </span><mat-slider  #mySlider 
+  thumbLabel
+  tickInterval="1"
+  step="1"
+  min={{start_year}}
+  max={{end_year}}
+  (slideend)="sliderOnChange(mySlider.value)"
+  (pointerup)="sliderOnChange(mySlider.value)"
+  
+  aria-label="units">
+</mat-slider>  <span class="Year">{{end_year}}</span>
+</div>
+
+<div class="mat-slider-div">
+      
+      <span class="legendCircle" style="background-color: #03C04A"></span>
+      <span class="legendLabel">Movie</span>
+      <span class="legendCircle" style="background-color: #FF4500"></span>
+      <span class="legendLabel">Tv Show</span>
+      <span class="legendCircle" style="background-color: #FF3366"></span>
+      <span class="legendLabel">Both</span>
+</div>
+
+<div id="world-map"></div>
+

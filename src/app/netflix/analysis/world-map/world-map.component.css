@@ -1,0 +1,71 @@
+p {
+    font-family: Lato;
+  }
+  
+  
+  .countries {
+    fill: #b0d0ab;
+    stroke: #6cb0e0;
+    stroke-width: 0.5px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    /* vector-effect: non-scaling-stroke; */
+  }
+  .airports {
+    fill: #036;
+    stroke: #6cb0e0;
+    stroke-width: 0.5px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    /* vector-effect: non-scaling-stroke; */
+  }
+  .map {
+    fill:orange;
+    stroke:green;
+  }
+  .fontColor{
+    color:aqua
+  }
+  mat-slider {
+    width: 60%;
+    
+  }
+  .mat-slider-div{
+    position: relative;
+    width: 100%;
+    /* padding: 75px 0; */
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+    color: white;
+    font-size: 3.125rem
+  }
+
+  .Year {
+    font-size: 18px;
+  }
+  .legendCircle{
+    height: 20px;
+    width: 20px;
+    background-color: #30949d;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left:  20px;
+    /* margin-right:20px; */
+    
+  }
+  .legendLabel{
+    font-size: 19px;
+    margin-left:11px
+  }
+  .timeline{
+    color: #ff4081;
+    margin-top: 33px;
+  }
+.comparisonClass{
+  color: #03C04A;
+    font-style: unset;
+    font-family: cursive;
+}
+  
